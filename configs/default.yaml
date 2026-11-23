@@ -1,0 +1,16 @@
+seed: 42
+image_size: 128
+batch_size: 1
+num_workers: 2
+epochs: 50
+lr: 0.0002
+beta1: 0.5
+lambda_cycle: 10.0
+lambda_identity: 5.0
+lambda_bg: 10.0
+soft_mask_blur: 5
+device: cuda
+data_root: datasets/horse2zebra
+mask_root: datasets/horse2zebra_masks
+checkpoint_dir: checkpoints
+result_dir: results
